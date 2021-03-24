@@ -1,0 +1,70 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+/* colors */
+
+:root {
+    --primery : #1a253f;
+    --dark : #151A33;
+    --secondary : #2b55cc;
+    --info : #4d79f6;
+    --ternary : #848db3;
+    --pure : #eff2f9;
+    --fade : #7081b9;
+    --mild : #8997bd;
+    --footer : #212A4A;
+    --black : #
+
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex', sans-serif;
+    background: var(--dark);
+    -webkit-font-smoothing: antialased;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    line-height: 1;
+
+}
+
+.container{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+nav{
+    background: var(--primery);
+    padding:1.6rem 0;
+
+}
+nav .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .inner .logo{
+    text-transform: uppercase;
+    color: vaa(--pure);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+nav .inner .logo i{
+    color: var(--info);
+}
+
+nav .inner button{
+    background: var(--secondary);
+    border: none;
+    padding:0.6 1rem;
+    color: var(--pure);
+}
